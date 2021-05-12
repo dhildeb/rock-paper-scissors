@@ -15,27 +15,27 @@
 <body>
   <main class="container bg-info">
     <div class="row text-center">
-      <h1 class="col-4">You</h1>
-      <h1 id="result" class="col-4">Rock Paper Scissors</h1>
-      <h1 class="col-4">
+      <h1 id="result" class="col-12">Rock Paper Scissors</h1>
+      <div class="col-12">
+        <div id="wins" class="p-2">Wins: 0</div>
+        <div id="loses" class="p-2">Loses: 0</div>
+        <div id="ties" class="p-2">Ties: 0</div>
+      </div>
+      <h1 class="col-6 ">You</h1>
+      <h1 class="col-6 ">
         Opponent
       </h1>
     </div>
-    <div class="row justify-content-center text-center p-5">
-      <div id="player-img" class="col-3">
+    <div class="row justify-content-between text-center p-5">
+      <div id="player-img" class="col-md-4 col-6 order-md-1 order-2">
       </div>
-      <div id="scoreBoard" class="col-6">
-        <div id="wins" class="p-3">Wins: 0</div>
-        <div id="loses" class="p-3">Loses: 0</div>
-        <div id="ties" class="p-3">Ties: 0</div>
-      </div>
-      <div id="computer-img" class="col-3">
+      <div id="computer-img" class="col-md-4 col-6 order-3">
       </div>
     </div>
     <div class="row justify-content-center align-content-center pb-5">
-      <button class="col-4 btn btn-secondary p-3" onclick="play('rock')">Rock</button>
-      <button class="col-4 btn btn-light p-3" onclick="play('paper')">Paper</button>
-      <button class="col-4 btn btn-danger p-3" onclick="play('scissors')">Scissors</button>
+      <button class="col-md-4 btn btn-secondary p-3" onclick="play('rock')">Rock</button>
+      <button class="col-md-4 btn btn-light p-3" onclick="play('paper')">Paper</button>
+      <button class="col-md-4 btn btn-danger p-3" onclick="play('scissors')">Scissors</button>
     </div>
 
   </main>
