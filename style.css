@@ -1,12 +1,41 @@
 .rock{
-  background-color: gray;
-  border-radius: 49%;
-  height: 250px;
-  width: 280px;
+  background-color: #6c757d;
+  clip-path: polygon(50% 7%, 83% 18%, 97% 39%, 93% 67%, 81% 92%, 50% 100%, 20% 92%, 3% 71%, 8% 36%, 23% 13%);
+  height: 160px;
+  width: 150px;
 }
 
 .paper{
-  height: 500px;
-  width: 250px;
+  background-color: #f8f9fa;
+  clip-path: polygon(0 0, 2% 21%, 0 51%, 4% 80%, 0 99%, 50% 100%, 80% 98%, 100% 100%, 99% 47%, 99% 3%, 80% 0%, 34% 3%);
+  height: 160px;
+  width: 260px;
 }
 
+.scissors{
+  background: rgb(220,53,69);
+  background: linear-gradient(90deg, rgba(220,53,69,1) 35%, rgba(200,200,200,1) 38%, rgba(200,197,197,1) 40%);
+  clip-path: polygon(20% 0%, 0% 20%, 10% 51%, 0% 80%, 20% 100%, 38% 66%, 89% 100%, 100% 89%, 65% 51%, 100% 8%, 88% 0, 38% 33%);
+}
+.computer-rock{
+  transform: scaleX(-1);
+  background-color: #6c757d;
+  clip-path: polygon(50% 7%, 83% 18%, 97% 39%, 93% 67%, 81% 92%, 50% 100%, 20% 92%, 3% 71%, 8% 36%, 23% 13%);
+  height: 160px;
+  width: 150px;
+}
+
+.computer-paper{
+  transform: scaleX(-1);
+  background-color: #f8f9fa;
+  clip-path: polygon(0 0, 2% 21%, 0 51%, 4% 80%, 0 99%, 50% 100%, 80% 98%, 100% 100%, 99% 47%, 99% 3%, 80% 0%, 34% 3%);
+  height: 160px;
+  width: 260px;
+}
+
+.computer-scissors{
+  transform: scaleX(-1);
+  background: rgb(220,53,69);
+  background: linear-gradient(90deg, rgba(220,53,69,1) 35%, rgba(200,200,200,1) 38%, rgba(200,197,197,1) 40%);
+  clip-path: polygon(20% 0%, 0% 20%, 10% 51%, 0% 80%, 20% 100%, 38% 66%, 89% 100%, 100% 89%, 65% 51%, 100% 8%, 88% 0, 38% 33%);
+}
