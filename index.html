@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="container bg-success">
+    <div class="row justify-content-center text-center p-5">
+      <div id="scoreBoard" class="col-6">
+        <div id="wins" class="p-3">Wins: 0</div>
+        <div id="loses" class="p-3">Loses: 0</div>
+        <div id="ties" class="p-3">Ties: 0</div>
+      </div>
+    </div>
+    <div class="row justify-content-center align-content-center p-5">
+      <button class="col-4 btn btn-secondary p-3" onclick="play('rock')">Rock</button>
+      <button class="col-4 btn btn-light p-3" onclick="play('paper')">Paper</button>
+      <button class="col-4 btn btn-danger p-3" onclick="play('scissors')">Scissors</button>
+    </div>
+
+  </main>
+</body>
+<script src="app.js"></script>
+
+</html>

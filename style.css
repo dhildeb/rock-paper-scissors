@@ -1,0 +1,12 @@
+.rock{
+  background-color: gray;
+  border-radius: 49%;
+  height: 250px;
+  width: 280px;
+}
+
+.paper{
+  height: 500px;
+  width: 250px;
+}
+
