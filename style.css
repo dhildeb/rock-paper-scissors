@@ -16,6 +16,8 @@
   background: rgb(220,53,69);
   background: linear-gradient(90deg, rgba(220,53,69,1) 35%, rgba(200,200,200,1) 38%, rgba(200,197,197,1) 40%);
   clip-path: polygon(20% 0%, 0% 20%, 10% 51%, 0% 80%, 20% 100%, 38% 66%, 89% 100%, 100% 89%, 65% 51%, 100% 8%, 88% 0, 38% 33%);
+  height: 160px;
+  width: 260px;
 }
 .computer-rock{
   transform: scaleX(-1);
@@ -38,4 +40,6 @@
   background: rgb(220,53,69);
   background: linear-gradient(90deg, rgba(220,53,69,1) 35%, rgba(200,200,200,1) 38%, rgba(200,197,197,1) 40%);
   clip-path: polygon(20% 0%, 0% 20%, 10% 51%, 0% 80%, 20% 100%, 38% 66%, 89% 100%, 100% 89%, 65% 51%, 100% 8%, 88% 0, 38% 33%);
+  height: 160px;
+  width: 260px;
 }
