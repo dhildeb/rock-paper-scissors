@@ -1,0 +1,13 @@
+C:\Users\dhild\source\codeworks\rock-paper-scissors\bin\Debug\netcoreapp3.1\rock-paper-scissors.exe
+C:\Users\dhild\source\codeworks\rock-paper-scissors\bin\Debug\netcoreapp3.1\rock-paper-scissors.deps.json
+C:\Users\dhild\source\codeworks\rock-paper-scissors\bin\Debug\netcoreapp3.1\rock-paper-scissors.runtimeconfig.json
+C:\Users\dhild\source\codeworks\rock-paper-scissors\bin\Debug\netcoreapp3.1\rock-paper-scissors.runtimeconfig.dev.json
+C:\Users\dhild\source\codeworks\rock-paper-scissors\bin\Debug\netcoreapp3.1\rock-paper-scissors.dll
+C:\Users\dhild\source\codeworks\rock-paper-scissors\bin\Debug\netcoreapp3.1\rock-paper-scissors.pdb
+C:\Users\dhild\source\codeworks\rock-paper-scissors\obj\Debug\netcoreapp3.1\rock-paper-scissors.csprojAssemblyReference.cache
+C:\Users\dhild\source\codeworks\rock-paper-scissors\obj\Debug\netcoreapp3.1\rock-paper-scissors.AssemblyInfoInputs.cache
+C:\Users\dhild\source\codeworks\rock-paper-scissors\obj\Debug\netcoreapp3.1\rock-paper-scissors.AssemblyInfo.cs
+C:\Users\dhild\source\codeworks\rock-paper-scissors\obj\Debug\netcoreapp3.1\rock-paper-scissors.csproj.CoreCompileInputs.cache
+C:\Users\dhild\source\codeworks\rock-paper-scissors\obj\Debug\netcoreapp3.1\rock-paper-scissors.dll
+C:\Users\dhild\source\codeworks\rock-paper-scissors\obj\Debug\netcoreapp3.1\rock-paper-scissors.pdb
+C:\Users\dhild\source\codeworks\rock-paper-scissors\obj\Debug\netcoreapp3.1\rock-paper-scissors.genruntimeconfig.cache
